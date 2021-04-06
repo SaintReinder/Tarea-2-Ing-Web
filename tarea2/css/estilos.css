@@ -1,0 +1,53 @@
+form{
+    margin: 0 auto;
+    width: 95%;
+    padding: 1em;
+    border: 1px solid gray;
+}
+
+form ul{
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+label{
+    display: inline-block;
+    width: 120px;
+    text-align: center;
+}
+
+input{
+    width: 50%;
+    height: 20px;
+    border: 1px solid gray;
+    margin: 3px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+#lenguaje{
+    width: 20%;
+    margin-left: 150px;
+    margin-top: -50px;
+}
+
+#exp{
+    width: 20%;
+    margin-left: 150px;
+    margin-top: -50px;
+}
+
+#mensaje{
+    display: none;
+    text-align: center;
+    margin-top: 250px;
+}
+
+ul li{
+    padding: 8px;
+}
